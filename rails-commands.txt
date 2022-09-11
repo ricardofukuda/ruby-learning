@@ -1,0 +1,15 @@
+# install rails dependencies (Gemfile):
+bundle install
+
+# rails interactive console:
+rails console
+
+# rails database:
+rails generate model Article title:string body:text
+rails db:migrate
+
+# creates new controller:
+rails generate controller Articles show --skip-routes
+
+# display rails routes:
+rails routes
